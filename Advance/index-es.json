@@ -53,9 +53,9 @@
 
     "contact-us-title" : "Contáctanos",
     "contact-us-desc" : "Para mayor información, contáctenos!",
-    "contact-us-form-name" : "Su Nombre",
-    "contact-us-form-email" : "Su Correo",
-    "contact-us-form-comment" : "Su Comentario",
+    "contact-us-form-name" : "Su Nombre*",
+    "contact-us-form-email" : "Su Correo*",
+    "contact-us-form-comment" : "Su Comentario*",
     "contact-us-form-send" : "Enviar",
     "contact-us-dir" : "Francisco Salazar E10-37 y Jose Luis Tamayo Edf. Atlantic Business Center 7mo Piso Oficina 703.",
     "contact-us-email" : {"href":"mailto:info@ac-techsolutions.com","text":"info@ac-techsolutions.com"},

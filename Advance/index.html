@@ -445,10 +445,13 @@
 					</div>
 					<div class="row">
 						<div class="col-md-8 col-xs-11">
-							<input data-translate="contact-us-form-name" type="text" class="form-control adv-form" id="exampleInputEmail1" placeholder="Su Nombre"></input>
-							<input data-translate="contact-us-form-email" type="email" class="form-control adv-form" id="exampleInputEmail1" placeholder="Su Correo"></input>
-							<textarea data-translate="contact-us-form-comment" class="form-control adv-form" rows="8" placeholder="Su Comentario"></textarea>
-							<button data-translate="contact-us-form-send" type="submit" class="btn btn-primary adv-button"></button>
+							<form id="form">
+								<input data-translate="contact-us-form-name" type="text" class="form-control adv-form" id="name" placeholder=""></input>
+								<input data-translate="contact-us-form-email" type="email" class="form-control adv-form" id="email" placeholder=""></input>
+								<textarea data-translate="contact-us-form-comment" class="form-control adv-form" rows="8" id="message" placeholder=""></textarea>
+								<p id="returnmessage"></p>
+								<button id="send_form" data-translate="contact-us-form-send" type="submit" class="btn btn-primary adv-button"></button>
+							</form>
 						</div>
 						<div class="col-md-4 col-xs-11">
 							<div class="row">
@@ -468,7 +471,7 @@
 							<div class="row">
 								<div class="col-md-3 contact-circle-purple center"><i class="fa fa-phone fa-2x"></i> </div>
 								<div class="col-md-9">
-									<div data-translate="contact-us-phone" class="row contact-info"></div>
+									<a data-translate="contact-us-phone" class="row contact-info"></a>
 								</div>
 							</div>
 						</div>
